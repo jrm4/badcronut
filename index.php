@@ -5,6 +5,7 @@
 
 <body>
 
+<h1> Welcome to the Cronut Page </h1>
 <h4> Please enter your information</h4>
 
 	<form action="output.php" method="post">
