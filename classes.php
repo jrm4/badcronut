@@ -51,13 +51,13 @@ class subject {
 
 /* modified getter -- CAUTION, ALWAYS USE THIS FOR PUBLIC DISPLAY */
 
-		public function addressSubject () {
-			$drblank = "Dr . " . this->lastname;
+		public function addressSubject() {
+			$drblank = "Dr . " . $this->lastname;
 			return $drblank;
 
 		}
 
-}
+
 
 
 /* age goes in, color goes out.  */
@@ -99,4 +99,4 @@ class subject {
 
 
 }
-?
+?>
